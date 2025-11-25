@@ -31,9 +31,9 @@ export const navItems = [
   { label: "COMPANY", path: "/company",
   dropdown: [
       { label: "Rates",      path: "/company/rates" },
-      { label: "Blog", path: "/company/blog" },
+      // { label: "Blog", path: "/company/blog" },
       { label: "Contact Us",       path: "/company/contactus" },
-      { label: "About Us",        path: "/company/aboutus" },
+      // { label: "About Us",        path: "/company/aboutus" },
       { label: "Drivers Job",        path: "/company/driversjob" },
     ],
    },

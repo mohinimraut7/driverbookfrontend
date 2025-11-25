@@ -59,12 +59,12 @@ const CitySpecificSection1 = () => {
               >
                 Reserve Your Driver Today
               </Link>
-              <Link
+              {/* <Link
                 to="/download"
                 className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 px-6 rounded-md transition shadow-md text-center"
               >
                 Download App
-              </Link>
+              </Link> */}
             </div>
           </div>
 
