@@ -84,7 +84,7 @@ saaviinfinet@gmail.com</a>
       {/* Bottom Bar */}
       <div className="mt-10 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
-          <p>© 2025 All Rights Reserved By <span className="text-yellow-400 font-medium">ObeyJobs Private Limited</span></p>
+          <p>© 2025 All Rights Reserved By <span className="text-yellow-400 font-medium">Saavi Infinet Pvt. Ltd.</span></p>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-white transition">Terms & Conditions</a>
             <a href="#" className="hover:text-white transition">Privacy Policy</a>
