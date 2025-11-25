@@ -139,7 +139,7 @@ const Home = () => {
    <HPSThreeCitiesWeCater/>
    <HPFourWhatWeOffer/>
    <HPSectionFiveRentADriver/>
-   <HPSectionSixOurHappyClient/>
+   {/* <HPSectionSixOurHappyClient/> */}
    <HPSectionSevenFeaturedIn/>
    </>
   );

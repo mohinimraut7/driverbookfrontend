@@ -439,7 +439,7 @@ const CompanyContactUs = () => {
               </div>
 
               {/* Pune Office */}
-              <div>
+              {/* <div>
                 <h3 className="font-semibold text-lg mb-2">Pune Office</h3>
                 <p className="text-gray-700 leading-relaxed">
                   114, Bhaskar Colony, Near Krome Mall, Next to Vijay Sales,
@@ -449,7 +449,7 @@ const CompanyContactUs = () => {
                   <Phone className="w-4 h-4" />
                   +91 9625 390 390
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* Right – Contact Form */}
@@ -537,23 +537,23 @@ const CompanyContactUs = () => {
         {/* Branches Section */}
         <section className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6">
-            <h3 className="font-semibold text-lg mb-6 flex items-center gap-2">
+            {/* <h3 className="font-semibold text-lg mb-6 flex items-center gap-2">
               <MapPin className="w-5 h-5 text-orange-600" />
               (Branches) Andheri
-            </h3>
+            </h3> */}
             <div className="grid md:grid-cols-3 gap-6 text-sm">
-              <div>
+              {/* <div>
                 <p className="font-medium">9/B Arasa shopping center,</p>
                 <p>S.V road, Next to Paneri Shop,</p>
                 <p>Andheri West, Mumbai - 400058.</p>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2 text-gray-800">
                 <Mail className="w-4 h-4" />
-                support@driveronhire.com
+               saaviinfinet@gmail.com
               </div>
               <div className="flex items-center gap-2 text-gray-800">
                 <Phone className="w-4 h-4" />
-                022 4343 5900
+                9066181808
               </div>
             </div>
           </div>

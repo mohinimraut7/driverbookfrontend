@@ -50,19 +50,20 @@ const Footer = () => {
           <ul className="space-y-3 text-sm text-gray-400">
             <li className="flex items-start">
               <MapPin size={16} className="mr-2 mt-0.5 text-yellow-400" />
-              <span>9/B Arasa shopping center, S.V.road, Next to paneri shop, Andheri West, Mumbai - 400058</span>
+              <span>A/101,Vardhaman Vihar Vasai Palghar</span>
             </li>
             <li className="flex items-center">
               <Phone size={16} className="mr-2 text-yellow-400" />
-              <a href="tel:022434359000" className="hover:text-white transition">022 4343 5900</a>
+              <a href="tel:022434359000" className="hover:text-white transition">9066181808</a>
             </li>
             <li className="flex items-center">
               <Mail size={16} className="mr-2 text-yellow-400" />
-              <a href="mailto:info@driveronhire.com" className="hover:text-white transition">info@driveronhire.com</a>
+              <a href="mailto:info@driveronhire.com" className="hover:text-white transition">saaviinfinet.helpdesk@gmail.com</a>
             </li>
             <li className="flex items-center">
               <Mail size={16} className="mr-2 text-yellow-400" />
-              <a href="mailto:support@driveronhire.com" className="hover:text-white transition">support@driveronhire.com</a>
+              <a href="mailto:support@driveronhire.com" className="hover:text-white transition">
+saaviinfinet@gmail.com</a>
             </li>
           </ul>
 
