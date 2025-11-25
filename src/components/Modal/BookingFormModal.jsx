@@ -77,6 +77,9 @@
 import React from "react";
 
 const BookingFormModal = ({ open, onClose, service, city }) => {
+
+  const [success, setSuccess] = React.useState(false);
+
   if (!open) return null;
 
   return (
@@ -142,6 +145,19 @@ const BookingFormModal = ({ open, onClose, service, city }) => {
             />
           </div>
 
+            {/* destination */}
+          <div>
+            <label className="block text-sm font-medium mb-2">
+              Destination
+            </label>
+            <input
+              type="text"
+              className="w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-yellow-400 outline-none transition"
+              placeholder="Enter Destination"
+            />
+          </div>
+
+
           {/* Duty Hours */}
           <div>
             <label className="block text-sm font-medium mb-2">
@@ -183,9 +199,23 @@ const BookingFormModal = ({ open, onClose, service, city }) => {
           </div>
 
           {/* Book Button */}
-          <button className="w-full py-5 bg-yellow-400 hover:bg-yellow-500 text-black text-xl font-bold rounded-2xl transition active:scale-95 shadow-lg">
+          {/* <button className="w-full py-5 bg-yellow-400 hover:bg-yellow-500 text-black text-xl font-bold rounded-2xl transition active:scale-95 shadow-lg">
             Book Driver Now
-          </button>
+          </button> */}
+
+
+          {success ? (
+  <p className="w-full text-center py-5 text-green-600 text-lg font-semibold">
+    Your driving session has been successfully scheduled.
+  </p>
+) : (
+  <button
+    className="w-full py-5 bg-yellow-400 hover:bg-yellow-500 text-black text-xl font-bold rounded-2xl transition active:scale-95 shadow-lg"
+    onClick={() => setSuccess(true)}
+  >
+    Book Driver Now
+  </button>
+)}
         </div>
       </div>
     </div>
