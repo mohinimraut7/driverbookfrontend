@@ -18,6 +18,7 @@ import CompanyContactUs from "./pages/CompanyContactUs";   // Import this!
 import DriversJob from "./pages/DriversJob";
 import Rates from "./pages/Rates";
 import VerifyOtp from "./pages/VerifyOtp";   // <-- Add this line
+import DriverEnrollment from "./pages/DriverEnrollment";
 
 const App = () => {
   return (
@@ -35,6 +36,8 @@ const App = () => {
           {/* Specific COMPANY pages - MUST come BEFORE /company/:name */}
           <Route path="/company/contactus" element={<CompanyContactUs />} />
           <Route path="/company/driversjob" element={<DriversJob />} />
+            <Route path="/company/driverenrollment" element={<DriverEnrollment />} />
+
           <Route path="/company/rates" element={<Rates />} />
 
           {/* Dynamic route - catches /company/rates, /company/blog, etc */}

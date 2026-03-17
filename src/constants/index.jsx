@@ -35,6 +35,7 @@ export const navItems = [
       { label: "Contact Us",       path: "/company/contactus" },
       // { label: "About Us",        path: "/company/aboutus" },
       { label: "Drivers Job",        path: "/company/driversjob" },
+        { label: "Driver Enrollment",        path: "/company/driverenrollment" },
     ],
    },
 ];
